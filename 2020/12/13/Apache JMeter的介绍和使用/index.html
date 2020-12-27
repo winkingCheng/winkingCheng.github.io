@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
 <meta property="article:published_time" content="2020-12-13T09:27:09.962Z">
-<meta property="article:modified_time" content="2020-12-13T16:35:24.943Z">
+<meta property="article:modified_time" content="2020-12-27T08:44:33.614Z">
 <meta property="article:author" content="WinKing">
 <meta property="article:tag" content="JMeter">
 <meta property="article:tag" content="性能测试">
@@ -102,7 +102,7 @@ const getScript = url => new Promise((resolve, reject) => {
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2020-12-14 00:35:24'
+  postUpdate: '2020-12-27 16:44:33'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -167,18 +167,18 @@ if (asideStatus !== undefined) {
    } else {
      document.documentElement.classList.remove('hide-aside')
    }
-}})()</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/blog/img/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">WinKings Blogs</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Apache JMeter的介绍和使用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-12-13T09:27:09.962Z" title="发表于 2020-12-13 17:27:09">2020-12-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-12-13T16:35:24.943Z" title="更新于 2020-12-14 00:35:24">2020-12-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/">辅助工具</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><font size='6.5px'><strong>Apache JMeter的介绍和使用</strong></font></p>
+}})()</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/blog/img/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/blog/">WinKings Blogs</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Apache JMeter的介绍和使用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-12-13T09:27:09.962Z" title="发表于 2020-12-13 17:27:09">2020-12-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-12-27T08:44:33.614Z" title="更新于 2020-12-27 16:44:33">2020-12-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/">辅助工具</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><font size='6.5px'><strong>Apache JMeter的介绍和使用</strong></font></p>
 <p>​        Apache JMeter是一款纯java编写负载功能测试和性能测试开源工具软件。相比Loadrunner而言，JMeter小巧轻便且免费，逐渐成为了主流的性能测试工具，是每个测试人员都必须要掌握的工具之一。</p>
 <h1 id="JMeter的安装"><a href="#JMeter的安装" class="headerlink" title="JMeter的安装"></a>JMeter的安装</h1><h2 id="安装要求"><a href="#安装要求" class="headerlink" title="安装要求"></a>安装要求</h2><p>由于JMeter是基于java进行开发，所以需要安装JDK，安装JDK8或以上。</p>
 <h2 id="安装Jmeter"><a href="#安装Jmeter" class="headerlink" title="安装Jmeter"></a>安装Jmeter</h2><h3 id="Jmeter的下载"><a href="#Jmeter的下载" class="headerlink" title="Jmeter的下载"></a>Jmeter的下载</h3><p>下载地址：<a target="_blank" rel="noopener" href="https://jmeter.apache.org/download_jmeter.cgi">https://jmeter.apache.org/download_jmeter.cgi</a></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607852531286.png" alt="1607852531286"></p>
-<h3 id="解压安装包，打开安装包bin目录，双击jmeter-bat启动"><a href="#解压安装包，打开安装包bin目录，双击jmeter-bat启动" class="headerlink" title="解压安装包，打开安装包bin目录，双击jmeter.bat启动"></a>解压安装包，打开安装包bin目录，双击jmeter.bat启动</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607853875816.png" alt="1607853875816"></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607853902084.png" alt="1607853902084"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607852531286.png" alt="1607852531286"></p>
+<h3 id="解压安装包，打开安装包bin目录，双击jmeter-bat启动"><a href="#解压安装包，打开安装包bin目录，双击jmeter-bat启动" class="headerlink" title="解压安装包，打开安装包bin目录，双击jmeter.bat启动"></a>解压安装包，打开安装包bin目录，双击jmeter.bat启动</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607853875816.png" alt="1607853875816"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607853902084.png" alt="1607853902084"></p>
 <p>3、设置语言为中文</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607854203203.png" alt="1607854203203"></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607854246428.png" alt="1607854246428"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607854203203.png" alt="1607854203203"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607854246428.png" alt="1607854246428"></p>
 <h1 id="Jmeter的使用"><a href="#Jmeter的使用" class="headerlink" title="Jmeter的使用"></a>Jmeter的使用</h1><h2 id="创建线程组"><a href="#创建线程组" class="headerlink" title="创建线程组"></a>创建线程组</h2><p>​        右键点击“测试计划” -&gt; “添加” -&gt; “线程（用户）” -&gt; “线程组”</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607854808012.png" alt="1607854808012"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607854808012.png" alt="1607854808012"></p>
 <p>线程组参数详解： </p>
 <p><strong>线程数</strong>：虚拟用户数。一个虚拟用户占用一个进程或线程。设置多少虚拟用户数在这里也就是设置多少个线程数。 </p>
 <p><strong>Ramp-Up Period(in seconds)准备时长</strong>：设置的虚拟用户数需要多长时间全部启动。如果线程数为10，准备时长为2，那么需要2秒钟启动10个线程，也就是每秒钟启动5个线程。 </p>
@@ -189,9 +189,9 @@ if (asideStatus !== undefined) {
 <p><strong>启动时间</strong>：测试启动时间，启动延迟会覆盖它。当启动时间已过，手动只需测试时当前时间也会覆盖它。 </p>
 <p><strong>结束时间</strong>：测试结束时间，持续时间会覆盖它。</p>
 <h2 id="添加请求"><a href="#添加请求" class="headerlink" title="添加请求"></a>添加请求</h2><p>​        右键点击“线程组” -&gt; “添加” -&gt; “Sampler” -&gt; “HTTP请求” </p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607855692886.png" alt="1607855692886"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607855692886.png" alt="1607855692886"></p>
 <p>​        假设我们的测试接口是：<a target="_blank" rel="noopener" href="http://www.baidu.com/s?ie=utf-8&amp;wd=jmeter%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8F%82%E8%80%83%E4%B8%8B%E5%9B%BE%E5%A1%AB%E5%86%99%EF%BC%9A">http://www.baidu.com/s?ie=utf-8&amp;wd=jmeter性能测试，可以参考下图填写：</a></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607855972981.png" alt="1607855972981"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607855972981.png" alt="1607855972981"></p>
 <p>Http请求主要参数详解：</p>
 <p><strong>协议</strong>：向目标服务器发送HTTP请求协议，可以是HTTP或HTTPS，默认为HTTP。 </p>
 <p><strong>服务器名称或IP</strong>：HTTP请求发送的目标服务器名称或IP 。</p>
@@ -201,40 +201,40 @@ if (asideStatus !== undefined) {
 <p><strong>Content encoding内容编码</strong> ：编码方式，默认为ISO-8859-1编码，这里配置为utf-8。</p>
 <p><strong>同请求一起发送参数</strong>：在请求中发送的URL参数，用户可以将URL中所有参数设置在本表中，表中每行为一个参数（对应URL中的 name=value），注意参数传入中文时需要勾选“编码”。</p>
 <h2 id="添加察看结果树"><a href="#添加察看结果树" class="headerlink" title="添加察看结果树"></a>添加察看结果树</h2><p>​        右键点击“线程组” -&gt; “添加” -&gt; “监听器” -&gt; “察看结果树” </p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607856632948.png" alt="1607856632948"></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607856844503.png" alt="1607856844503"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607856632948.png" alt="1607856632948"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607856844503.png" alt="1607856844503"></p>
 <p>​        由于这个页面是一个html页面，所以我们要配置响应数据格式为“HTML Source Formatted”</p>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607873443952.png" alt="1607873443952"></p>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607873443952.png" alt="1607873443952"></p>
 <p>​        点击测试开始的按钮，我们可以看到测试了10个数据，返回status都是ok</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607857241735.png" alt="1607857241735"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607857241735.png" alt="1607857241735"></p>
 <p>​        这样一个jmeter的测试就结束了</p>
 <h2 id="添加自定义变量"><a href="#添加自定义变量" class="headerlink" title="添加自定义变量"></a>添加自定义变量</h2><p>​        我们可以添加用户自定义变量用以Http请求参数化，右键点击“线程组” -&gt; “添加” -&gt; “配置元件” -&gt; “用户定义的变量”：</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607857512292.png" alt="1607857512292"></p>
-<h3 id="设置名称为wd，值为Jmeter测试动态变量"><a href="#设置名称为wd，值为Jmeter测试动态变量" class="headerlink" title="设置名称为wd，值为Jmeter测试动态变量"></a>设置名称为wd，值为Jmeter测试动态变量</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871038056.png" alt="1607871038056"></p>
-<h3 id="http请求的值，使用-wd-来动态获取该变量的值"><a href="#http请求的值，使用-wd-来动态获取该变量的值" class="headerlink" title="http请求的值，使用${wd}来动态获取该变量的值"></a>http请求的值，使用${wd}来动态获取该变量的值</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871132432.png" alt="1607871132432"></p>
-<h3 id="测试-1"><a href="#测试-1" class="headerlink" title="测试"></a>测试</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871275266.png" alt="1607871275266"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607857512292.png" alt="1607857512292"></p>
+<h3 id="设置名称为wd，值为Jmeter测试动态变量"><a href="#设置名称为wd，值为Jmeter测试动态变量" class="headerlink" title="设置名称为wd，值为Jmeter测试动态变量"></a>设置名称为wd，值为Jmeter测试动态变量</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871038056.png" alt="1607871038056"></p>
+<h3 id="http请求的值，使用-wd-来动态获取该变量的值"><a href="#http请求的值，使用-wd-来动态获取该变量的值" class="headerlink" title="http请求的值，使用${wd}来动态获取该变量的值"></a>http请求的值，使用${wd}来动态获取该变量的值</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871132432.png" alt="1607871132432"></p>
+<h3 id="测试-1"><a href="#测试-1" class="headerlink" title="测试"></a>测试</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871275266.png" alt="1607871275266"></p>
 <p>​        点击测试，观察结果，返回了我们自定义的搜索词Jmeter测试动态变量，修改成功！</p>
 <h2 id="添加断言结果"><a href="#添加断言结果" class="headerlink" title="添加断言结果"></a>添加断言结果</h2><p>​        上一步测试中如果返回的内容复杂且多，那我们可能要找到的难度就会提高，此时我们可以使用断言结果来进行处理。</p>
 <p>​        右键点击“线程组” -&gt; “添加”-&gt; “断言” -&gt; “响应断言” </p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871694041.png" alt="1607871694041"></p>
-<h3 id="添加匹配规则为包括，测试模式为我们添加的参数，用-wd-代替，点击保存"><a href="#添加匹配规则为包括，测试模式为我们添加的参数，用-wd-代替，点击保存" class="headerlink" title="添加匹配规则为包括，测试模式为我们添加的参数，用${wd}代替，点击保存"></a>添加匹配规则为包括，测试模式为我们添加的参数，用${wd}代替，点击保存</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871803267.png" alt="1607871803267"></p>
-<h3 id="添加断言结果-1"><a href="#添加断言结果-1" class="headerlink" title="添加断言结果"></a>添加断言结果</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607871993115.png" alt="1607871993115"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871694041.png" alt="1607871694041"></p>
+<h3 id="添加匹配规则为包括，测试模式为我们添加的参数，用-wd-代替，点击保存"><a href="#添加匹配规则为包括，测试模式为我们添加的参数，用-wd-代替，点击保存" class="headerlink" title="添加匹配规则为包括，测试模式为我们添加的参数，用${wd}代替，点击保存"></a>添加匹配规则为包括，测试模式为我们添加的参数，用${wd}代替，点击保存</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871803267.png" alt="1607871803267"></p>
+<h3 id="添加断言结果-1"><a href="#添加断言结果-1" class="headerlink" title="添加断言结果"></a>添加断言结果</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607871993115.png" alt="1607871993115"></p>
 <p>​        当前的测试规则是，结果包含参数数据则为true</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607873562323.png" alt="1607873562323"></p>
-<h3 id="测试-2"><a href="#测试-2" class="headerlink" title="测试"></a>测试</h3><p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607873130707.png" alt="1607873130707"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607873562323.png" alt="1607873562323"></p>
+<h3 id="测试-2"><a href="#测试-2" class="headerlink" title="测试"></a>测试</h3><p><img src="https://cheng_qiwei.gitee.io/blog/img/1607873130707.png" alt="1607873130707"></p>
 <p>​        点击测试，如果断言结果为true，则不会返回什么内容，如图为成功，如果失败，则会返回如下图展示的内容</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607873228037.png" alt="1607873228037"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607873228037.png" alt="1607873228037"></p>
 <h2 id="设置动态参数"><a href="#设置动态参数" class="headerlink" title="设置动态参数"></a>设置动态参数</h2><p>​        有时候我们的测试参数不是一成不变的，如果我们需要在测试的时候动态修改参数，则可以进行以下配置。</p>
 <p>​        右键点击“http请求” -&gt; “添加”-&gt; “配置元件” -&gt; “CSV Data Set Config” </p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607873807373.png" alt="1607873807373"></p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607874202732.png" alt="1607874202732"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607873807373.png" alt="1607873807373"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607874202732.png" alt="1607874202732"></p>
 <p>​        这里要注意文本保存的编码方式要和设置的文件编码方式一致，否则会出现中文乱码的情况。</p>
 <p>测试：</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607874474506.png" alt="1607874474506"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607874474506.png" alt="1607874474506"></p>
 <h2 id="添加聚合报告"><a href="#添加聚合报告" class="headerlink" title="添加聚合报告"></a>添加聚合报告</h2><p>​        右键点击“线程组” -&gt; “添加” -&gt; “监听器” -&gt; “聚合报告”，用以存放性能测试报告 </p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607875044907.png" alt="1607875044907"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607875044907.png" alt="1607875044907"></p>
 <p>测试：</p>
-<p><img src="http://cheng_qiwei.gitee.io/blog/img/work/1607875196722.png" alt="1607875196722"></p>
+<p><img src="https://cheng_qiwei.gitee.io/blog/img/1607875196722.png" alt="1607875196722"></p>
 <p>聚合报告参数详解： </p>
 <p><strong>Label</strong>：每个 JMeter 的 element（例如 HTTP Request）都有一个 Name 属性，这里显示的就是 Name 属性的值 ；</p>
 <p><strong>#Samples（样本）</strong>：请求数——表示这次测试中一共发出了多少个请求，如果模拟10个用户，每个用户迭代10次，那么这里显示100 ；</p>
